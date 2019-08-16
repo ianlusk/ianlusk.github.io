@@ -364,7 +364,8 @@ textarea {
 			padding: 2rem 0 0;
 			font-size: 1.6rem;
 		}
-		h2.active:after {
+		h2.active:after,
+		h2.inactive:after {
 			right: 0;
 		}
 
