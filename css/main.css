@@ -181,6 +181,8 @@ textarea {
 		font-weight: 600;
 		cursor: pointer;
 		display: block;
+		text-transform: uppercase;
+		font-weight: bold;
 		width: 100%;
 	}
 
@@ -283,7 +285,7 @@ textarea {
 		padding: 4rem;
 		margin: 1rem 2rem 2rem 2rem;
 		border-radius: 1rem;
-		box-shadow: 0 0 1rem 0 rgba(0,0,0,0.2);
+		box-shadow: 0rem 0.25rem 1rem 0 rgba(0,0,0,0.2);
 	}
 
 	.info-list > li.current {
@@ -350,7 +352,33 @@ textarea {
 			columns: unset;
 		}
 		.column-list {
-			padding: 0 0 0 2rem;
+			padding: 0;
+		}
+
+		.info-list > li {
+			padding: 2rem;
+			margin: 1rem 0 2rem;
+		}
+
+		h2 {
+			padding: 2rem 0 0;
+			font-size: 1.6rem;
+		}
+		h2.active:after {
+			right: 0;
+		}
+
+		ul {
+			padding: 0;
+		}
+
+		ul li {
+			list-style: none;
+			margin: 0 0 1rem 0;
+		}
+
+		.logo {
+			max-width: 100%;
 		}
 	}
 
